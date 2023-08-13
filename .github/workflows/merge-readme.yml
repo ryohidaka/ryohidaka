@@ -1,0 +1,38 @@
+name: Merge README.md
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  merge-readme:
+    name: Merge README.md
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Insert document files to template
+        uses: ryohidaka/action-md-insert@v1.2.1
+        with:
+          template_path: "./templates/README.md"
+          src_dir: "./docs"
+          dest_file: "./README.md"
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --quiet || echo "Files have changed"
+          echo "::set-output name=files_changed::$(git diff --name-only)"
+
+      - name: Commit changes
+        if: steps.check_changes.outputs.files_changed != ''
+        run: |
+          git config --global user.name "$(git log -1 --pretty=format:'%an')"
+          git config --global user.email "$(git log -1 --pretty=format:'%ae')"
+
+          git add README.md
+          git commit -m "Update README.md"
+          git push
