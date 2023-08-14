@@ -1,5 +1,4 @@
-# https://metrics.lecoq.io/
-# Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
+# Visit https://github.com/lowlighter/metrics#-documentation for full reference
 name: Metrics
 on:
   # Schedule updates (Runs at 09:00 JST every day)
@@ -27,16 +26,20 @@ jobs:
 
           # Options
           user: ryohidaka
-          filename: svg/github-metrics.svg
           template: classic
-          base: header, activity, repositories, metadata
+          filename: svg/github-metrics.svg
           config_display: large
           config_padding: 0, 10 + 8%
+          base: header, activity, repositories, metadata
+          base_indepth: yes
           config_timezone: Asia/Tokyo
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
+          plugin_languages_analysis_timeout_repositories: 7.5
           plugin_languages_categories: programming
           plugin_languages_colors: github
+          plugin_languages_details: percentage
+          plugin_languages_ignored: css,scss,html,javascript
           plugin_languages_limit: 8
           plugin_languages_recent_categories: programming
           plugin_languages_recent_days: 14
