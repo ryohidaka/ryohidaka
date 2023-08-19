@@ -6,3 +6,6 @@ A programmer working in Osaka, Japan.
 
 <!-- zenn.md:START -->
 <!-- zenn.md:END -->
+
+<!-- contributions.md:START -->
+<!-- contributions.md:END -->

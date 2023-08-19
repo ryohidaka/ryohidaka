@@ -1,0 +1,42 @@
+name: Update Contributions
+
+on:
+  schedule:
+    - cron: "* * 1 * *"
+  workflow_dispatch:
+
+jobs:
+  update-contributions:
+    name: Update Contributions
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Action PR to Md
+        uses: ryohidaka/action-pr-to-md@v1.2.2
+        with:
+          user_name: "ryohidaka"
+          is_exclude_owner_repos: true
+          since: "2022-01-01"
+          excluded_repos: ""
+          states: ""
+          repo_template: "#### {REPO}\n{ITEMS}"
+          item_template: "- [#{number} {title}]({html_url})\n"
+          output_file_path: "docs/contributions.md"
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --quiet || echo "Files have changed"
+          echo "::set-output name=files_changed::$(git diff --name-only)"
+
+      - name: Commit changes
+        if: steps.check_changes.outputs.files_changed != ''
+        run: |
+          git config --global user.name "$(git log -1 --pretty=format:'%an')"
+          git config --global user.email "$(git log -1 --pretty=format:'%ae')"
+
+          git add docs/contributions.md
+          git commit -m "Update Contributions"
+          git push
