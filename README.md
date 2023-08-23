@@ -18,3 +18,13 @@ A programmer working in Osaka, Japan.
 
 
 <!-- zenn.md:END -->
+
+<!-- contributions.md:START -->
+
+# Contributions
+
+<!-- PR-LIST:START -->
+<!-- PR-LIST:END -->
+
+
+<!-- contributions.md:END -->
