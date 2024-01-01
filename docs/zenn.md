@@ -1,6 +1,7 @@
 # ![zenn](/icons/zenn.png) Latest Zenn Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [JavaScriptにgroupByが実装されたから、Lodashの.groupByと比較してみた](https://zenn.dev/hidaka/articles/javascript-groupby)
 - [Next.jsのAppRouter機能を用いた静的サイトの作成](https://zenn.dev/hidaka/articles/nextjs-app-router-blog)
 - [Githubの無料プラン&lpar;Free&rpar;と有料プラン&lpar;Pro&rpar;を比較](https://zenn.dev/hidaka/articles/compare-github-plans)
 - [LaravelでBacked Enumを用いた際に、valueからcaseを参照する方法](https://zenn.dev/hidaka/articles/laravel-enum-backed-enum)
