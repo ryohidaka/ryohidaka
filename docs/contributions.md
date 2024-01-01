@@ -1,6 +1,11 @@
 # Contributions
 
 <!-- PR-LIST:START -->
+#### arkwnet/569
+- [#4 [Refact] 解析結果取得処理をcomputedに変更](https://github.com/arkwnet/569/pull/4)
+- [#1 [BugFix] 結果の文章がはみ出す不具合を修正](https://github.com/arkwnet/569/pull/1)
+#### you-dont-need/You-Dont-Need-Lodash-Underscore
+- [#387 Updating support for _.groupBy() using  Object.groupBy()](https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore/pull/387)
 #### AranoYuki1/Misstter
 - [#16 fix: #6 TweetdeckのURL変更](https://github.com/AranoYuki1/Misstter/pull/16)
 - [#7 定数をconstants.tsに定義](https://github.com/AranoYuki1/Misstter/pull/7)
