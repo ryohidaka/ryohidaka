@@ -1,6 +1,11 @@
 # Contributions
 
 <!-- PR-LIST:START -->
+#### SAWARATSUKI/ServiceLogos
+- [#264 Move docs](https://github.com/SAWARATSUKI/ServiceLogos/pull/264)
+- [#165 リクエスト専用のIssueフォームを追加](https://github.com/SAWARATSUKI/ServiceLogos/pull/165)
+#### wxt-dev/wxt
+- [#609 docs: Fix typo on example for wxt.config.ts.](https://github.com/wxt-dev/wxt/pull/609)
 #### arkwnet/569
 - [#4 [Refact] 解析結果取得処理をcomputedに変更](https://github.com/arkwnet/569/pull/4)
 - [#1 [BugFix] 結果の文章がはみ出す不具合を修正](https://github.com/arkwnet/569/pull/1)
