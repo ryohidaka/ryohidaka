@@ -5,17 +5,20 @@ on:
     - cron: "* * 1 * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   update-readme-with-blog:
     name: Update latest blogs
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Fetch posts
-        uses: gautamkrishnar/blog-post-workflow@master
+        uses: ryohidaka/zenn-article-fetcher@v0.1.0
         with:
-          feed_list: "https://zenn.dev/hidaka/feed"
-          readme_path: "./docs/zenn.md"
-          max_post_count: 10
+          user-id: "zenn"
+          output: "templates/README.md"
+          template: "- %DATE% [%TITLE](%LINK%)"
