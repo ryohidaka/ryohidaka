@@ -19,7 +19,7 @@ jobs:
       - name: Fetch posts
         uses: ryohidaka/zenn-article-fetcher@v0.1.2
         with:
-          user-id: "zenn"
+          user-id: "hidaka"
           output: "templates/README.md"
           template: "- %DATE% [%TITLE%](%LINK%)"
           date-locale: "ja"
