@@ -22,6 +22,10 @@ A programmer working in Osaka, Japan.
 
 # Contributions
 
+<details>
+
+<summary>List Contributions</summary>
+
 <!-- PR-LIST:START -->
 #### SAWARATSUKI/ServiceLogos
 - [#264 Move docs](https://github.com/SAWARATSUKI/ServiceLogos/pull/264)
@@ -58,5 +62,8 @@ A programmer working in Osaka, Japan.
 #### s-sasaki-0529/go-zaim
 - [#1 カテゴリID, ジャンルID等がzero valueで初期化される不具合を修正](https://github.com/s-sasaki-0529/go-zaim/pull/1)
 <!-- PR-LIST:END -->
+
+</details>
+
 
 <!-- contributions.md:END -->
