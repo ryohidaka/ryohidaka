@@ -40,7 +40,4 @@
 - [#1279 docs: fix refs type error in Basic Drawer component usage](https://github.com/chakra-ui/chakra-ui-docs/pull/1279)
 #### s-sasaki-0529/go-zaim
 - [#1 カテゴリID, ジャンルID等がzero valueで初期化される不具合を修正](https://github.com/s-sasaki-0529/go-zaim/pull/1)
-
-
-</details>
 <!-- PR-LIST:END -->
