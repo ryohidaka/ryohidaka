@@ -5,9 +5,12 @@
 <summary>List Contributions</summary>
 
 <!-- PR-LIST:START -->
-#### SAWARATSUKI/ServiceLogos
-- [#264 Move docs](https://github.com/SAWARATSUKI/ServiceLogos/pull/264)
-- [#165 リクエスト専用のIssueフォームを追加](https://github.com/SAWARATSUKI/ServiceLogos/pull/165)
+#### vercel/next.js
+- [#65917 Docs: Replace "twitter.com" to "x.com"](https://github.com/vercel/next.js/pull/65917)
+- [#65374 Replace rgba to rgb on error page](https://github.com/vercel/next.js/pull/65374)
+#### misskey-dev/misskey-hub
+- [#319 WIP: UWUモードを追加](https://github.com/misskey-dev/misskey-hub/pull/319)
+- [#183 権限の一覧を追加](https://github.com/misskey-dev/misskey-hub/pull/183)
 #### wxt-dev/wxt
 - [#609 docs: Fix typo on example for wxt.config.ts.](https://github.com/wxt-dev/wxt/pull/609)
 #### arkwnet/569
@@ -31,14 +34,13 @@
 - [#3913 キャラクタ名の省略表示を追加](https://github.com/annict/annict/pull/3913)
 #### bluesky-social/atproto-website
 - [#17 Modified import statement to module path aliases](https://github.com/bluesky-social/atproto-website/pull/17)
-#### misskey-dev/misskey-hub
-- [#183 権限の一覧を追加](https://github.com/misskey-dev/misskey-hub/pull/183)
 #### misskey-dev/misskey.js
 - [#55 feat: add type of gallery](https://github.com/misskey-dev/misskey.js/pull/55)
 #### chakra-ui/chakra-ui-docs
 - [#1279 docs: fix refs type error in Basic Drawer component usage](https://github.com/chakra-ui/chakra-ui-docs/pull/1279)
 #### s-sasaki-0529/go-zaim
 - [#1 カテゴリID, ジャンルID等がzero valueで初期化される不具合を修正](https://github.com/s-sasaki-0529/go-zaim/pull/1)
-<!-- PR-LIST:END -->
+
 
 </details>
+<!-- PR-LIST:END -->
