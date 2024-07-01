@@ -5,6 +5,8 @@
 <summary>List Contributions</summary>
 
 <!-- PR-LIST:START -->
+#### liebe-magi/pyzaim
+- [#39 支出のパラメータにreceipt_idを追加](https://github.com/liebe-magi/pyzaim/pull/39)
 #### vercel/next.js
 - [#65917 Docs: Replace "twitter.com" to "x.com"](https://github.com/vercel/next.js/pull/65917)
 - [#65374 Replace rgba to rgb on error page](https://github.com/vercel/next.js/pull/65374)
