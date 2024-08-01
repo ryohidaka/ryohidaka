@@ -5,6 +5,10 @@
 <summary>List Contributions</summary>
 
 <!-- PR-LIST:START -->
+#### jestjs/jest
+- [#15221 chore: Replaced links built with Google URL Shortener with full URLs.](https://github.com/jestjs/jest/pull/15221)
+#### facebook/react
+- [#30411 chore: Replaced links built with Google URL Shortener with full URLs.](https://github.com/facebook/react/pull/30411)
 #### liebe-magi/pyzaim
 - [#39 支出のパラメータにreceipt_idを追加](https://github.com/liebe-magi/pyzaim/pull/39)
 #### vercel/next.js
