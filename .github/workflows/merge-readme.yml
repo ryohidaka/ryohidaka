@@ -6,6 +6,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   merge-readme:
     name: Merge README.md
@@ -21,18 +24,8 @@ jobs:
           src_dir: "./docs"
           dest_file: "./README.md"
 
-      - name: Check for changes
-        id: check_changes
-        run: |
-          git diff --quiet || echo "Files have changed"
-          echo "::set-output name=files_changed::$(git diff --name-only)"
-
-      - name: Commit changes
-        if: steps.check_changes.outputs.files_changed != ''
-        run: |
-          git config --global user.name "$(git log -1 --pretty=format:'%an')"
-          git config --global user.email "$(git log -1 --pretty=format:'%ae')"
-
-          git add README.md
-          git commit -m "Update README.md"
-          git push
+      - name: Commit and Push
+        uses: ryohidaka/action-commit-push@v0.3.0
+        with:
+          files: "README.md"
+          commit-message: "Update README.md"
