@@ -5,6 +5,9 @@
 <summary>List Contributions</summary>
 
 <!-- PR-LIST:START -->
+#### pixiv/charcoal
+- [#646 fix!(tailwind-config): カスタムスタイルをtheme.extend以下に移動](https://github.com/pixiv/charcoal/pull/646)
+- [#634 docs(tailwind-config): tailwind-config/README.mdのリンク切れを修正](https://github.com/pixiv/charcoal/pull/634)
 #### jestjs/jest
 - [#15221 chore: Replaced links built with Google URL Shortener with full URLs.](https://github.com/jestjs/jest/pull/15221)
 #### facebook/react
