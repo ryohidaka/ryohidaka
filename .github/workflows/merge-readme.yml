@@ -25,7 +25,7 @@ jobs:
           dest_file: "./README.md"
 
       - name: Commit and Push
-        uses: ryohidaka/action-commit-push@v0.5.0
+        uses: ryohidaka/action-commit-push@v0.6.0
         with:
           files: "README.md"
           commit-message: "Update README.md"
