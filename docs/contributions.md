@@ -5,6 +5,8 @@
 <summary>List Contributions</summary>
 
 <!-- PR-LIST:START -->
+#### upbit/pixivpy
+- [#407 feat(models): Added is_accept_request variable to UserInfo class.](https://github.com/upbit/pixivpy/pull/407)
 #### pixiv/charcoal
 - [#646 fix!(tailwind-config): カスタムスタイルをtheme.extend以下に移動](https://github.com/pixiv/charcoal/pull/646)
 - [#634 docs(tailwind-config): tailwind-config/README.mdのリンク切れを修正](https://github.com/pixiv/charcoal/pull/634)
