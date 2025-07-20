@@ -6,8 +6,7 @@ A programmer working in Osaka, Japan.
 
 ## Most Used Languages
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ryohidaka&layout=compact&hide=javascript,css,html,shell&hide_title=true)
-
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ryohidaka&layout=compact&hide=javascript,css,html,shell&hide_title=true&hide_border=true)
 ## ![zenn](/icons/zenn.png) Latest Zenn Posts
 
 <!-- [ZennArticles:START] -->
