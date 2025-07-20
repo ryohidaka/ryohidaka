@@ -4,9 +4,11 @@ A programmer working in Osaka, Japan.
 
 ![Metrics](svg/github-metrics.svg)
 
+## Most Used Languages
+
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ryohidaka&layout=compact&hide=javascript,css,html,shell&hide_title=true)
 
-# ![zenn](/icons/zenn.png) Latest Zenn Posts
+## ![zenn](/icons/zenn.png) Latest Zenn Posts
 
 <!-- [ZennArticles:START] -->
 - 2023/12/03 [JavaScriptにgroupByが実装されたから、Lodashの.groupByと比較してみた](https://zenn.dev/hidaka/articles/javascript-groupby)
