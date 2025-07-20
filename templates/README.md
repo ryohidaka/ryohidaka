@@ -4,6 +4,8 @@ A programmer working in Osaka, Japan.
 
 ![Metrics](svg/github-metrics.svg)
 
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ryohidaka&layout=compact&hide=javascript,css,html,shell)
+
 # ![zenn](/icons/zenn.png) Latest Zenn Posts
 
 <!-- [ZennArticles:START] -->
