@@ -5,6 +5,8 @@
 <summary>List Contributions</summary>
 
 <!-- PR-LIST:START -->
+#### googleapis/release-please
+- [#2575 feat: add support for deno (and jsr)](https://github.com/googleapis/release-please/pull/2575)
 #### upbit/pixivpy
 - [#407 feat(models): Added is_accept_request variable to UserInfo class.](https://github.com/upbit/pixivpy/pull/407)
 #### pixiv/charcoal
