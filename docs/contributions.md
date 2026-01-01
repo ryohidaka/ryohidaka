@@ -5,6 +5,8 @@
 <summary>List Contributions</summary>
 
 <!-- PR-LIST:START -->
+#### google/aside
+- [#46 Pin gts version to v6](https://github.com/google/aside/pull/46)
 #### googleapis/release-please
 - [#2575 feat: add support for deno (and jsr)](https://github.com/googleapis/release-please/pull/2575)
 #### upbit/pixivpy
