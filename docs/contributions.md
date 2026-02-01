@@ -5,6 +5,14 @@
 <summary>List Contributions</summary>
 
 <!-- PR-LIST:START -->
+#### npmx-dev/npmx.dev
+- [#507 feat(i18n): add filters.sort to Japanese translation](https://github.com/npmx-dev/npmx.dev/pull/507)
+- [#421 fix(i18n): fix typo in Japanese translations](https://github.com/npmx-dev/npmx.dev/pull/421)
+#### bunup/templates
+- [#4 fix: change simple-git-hooks from postinstall to prepare](https://github.com/bunup/templates/pull/4)
+- [#3 Formatting package.json](https://github.com/bunup/templates/pull/3)
+#### bunup/cli
+- [#1 Add option to initialize git repository](https://github.com/bunup/cli/pull/1)
 #### google/aside
 - [#46 Pin gts version to v6](https://github.com/google/aside/pull/46)
 #### googleapis/release-please
