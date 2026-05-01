@@ -5,6 +5,8 @@
 <summary>List Contributions</summary>
 
 <!-- PR-LIST:START -->
+#### voidzero-dev/vite-plus
+- [#1484 feat(cli): Initialize a git repository and create an initial commit on scaffold](https://github.com/voidzero-dev/vite-plus/pull/1484)
 #### npmx-dev/npmx.dev
 - [#507 feat(i18n): add filters.sort to Japanese translation](https://github.com/npmx-dev/npmx.dev/pull/507)
 - [#421 fix(i18n): fix typo in Japanese translations](https://github.com/npmx-dev/npmx.dev/pull/421)
