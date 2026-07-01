@@ -26,8 +26,8 @@
 - [#634 docs(tailwind-config): tailwind-config/README.mdのリンク切れを修正](https://github.com/pixiv/charcoal/pull/634)
 #### jestjs/jest
 - [#15221 chore: Replaced links built with Google URL Shortener with full URLs.](https://github.com/jestjs/jest/pull/15221)
-#### facebook/react
-- [#30411 chore: Replaced links built with Google URL Shortener with full URLs.](https://github.com/facebook/react/pull/30411)
+#### react/react
+- [#30411 chore: Replaced links built with Google URL Shortener with full URLs.](https://github.com/react/react/pull/30411)
 #### liebe-magi/pyzaim
 - [#39 支出のパラメータにreceipt_idを追加](https://github.com/liebe-magi/pyzaim/pull/39)
 #### vercel/next.js
